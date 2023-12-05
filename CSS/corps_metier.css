@@ -1,0 +1,131 @@
+@font-face {
+    font-family: "RalewayBold";
+    src: url("../Fonts/Raleway/Raleway-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "RalewayExtraBoldItalic";
+    src: url("../Fonts/Raleway/Raleway-ExtraBoldItalic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url("../Fonts/Raleway/Raleway-SemiBold.ttf") format("truetype");
+}
+
+/* 
+gris: #666666 
+autres gris: #3A3A3A
+bleu: #223266 
+background gris: #F5F5FE
+bleu lagon: #36B8C2
+bleu/vert: #C2EBEE
+*/
+
+h1{
+    font-family: "RalewayBold", sans-serif;
+}
+
+.title{
+    width: 65%;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    color: #223266;
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+.in_body{    
+    font-family: "RalewayExtraBoldItalic", sans-serif;
+    color: #223266;
+}
+
+h2{
+    font-family: "RalewayBold", sans-serif;
+    font-size: 2rem;
+    color: #223266;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.in_body::after{
+    content: "";
+    display: flex;
+    width: 3%;
+    padding-top: 1%;
+    border-bottom: 2px solid #36B8C2; 
+}
+
+
+.gris{
+    color: #3A3A3A ;
+    font-family: "Raleway", sans-serif;
+    padding: 1%;
+}
+
+.fleche{
+    width: 2%;
+    height: 40%;
+    transform: rotate(180deg);
+}
+
+.bleu{
+    color: #223266;
+}
+
+.git_copilot{
+    color: #223266;
+    padding-right: 1%;
+}
+
+.intro{
+    width: 65%;
+    margin: 0 auto;    
+    font-family: "Raleway", sans-serif;
+    padding-bottom: 2%;
+}
+
+ul li{
+    list-style: none;
+}
+
+.copilot_ex{
+    width: 65%;
+    margin: 0 auto;
+}
+
+.copilot_ex ul li{
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+}
+
+.copilot_ex ul li a{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin: 0 auto;
+}
+
+.pour_en_savoir_plus{
+    width: 65%;
+    margin: 0 auto;
+}
+
+.pour_en_savoir_plus a{
+    text-decoration: none;
+    color: #223266;
+    font-family: "RalewayExtraBoldItalic", sans-serif;
+}
+
+.pour_en_savoir_plus_container{    
+    background-color: #F5F5FE;
+}
+
+.pour_en_savoir_plus .fleche{
+    height: 1%;
+}
+
+.tab{
+    padding-left: 3%;
+}
